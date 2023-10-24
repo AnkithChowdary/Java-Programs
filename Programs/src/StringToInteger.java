@@ -12,5 +12,7 @@ public class StringToInteger {
         String a=Integer.toString(x);
         System.out.println(a);
 
+
     }
+
 }
