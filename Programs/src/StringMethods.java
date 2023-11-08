@@ -23,5 +23,13 @@ public class StringMethods {
         //Method chaining
         newDate="05".concat("/").concat("11").concat("/").concat("2007");
         System.out.println("newDate = "+newDate);
+        // Replace 
+        System.out.println("Replaced = "+newDate.replaceAll("/","-"));
+        String name="Ankit";
+        System.out.println("replaced = "+name.replace("n","N"));
+        System.out.println("ReplaceFirst = "+newDate.replaceFirst("/","-"));
+        System.out.println("-".repeat(25));
+        System.out.println("ABC\n".repeat(3));
+        System.out.println("ABC\n".repeat(3).indent(-2));
     }
 }
