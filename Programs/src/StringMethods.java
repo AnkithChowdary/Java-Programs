@@ -31,5 +31,6 @@ public class StringMethods {
         System.out.println("-".repeat(25));
         System.out.println("ABC\n".repeat(3));
         System.out.println("ABC\n".repeat(3).indent(-2));
+        System.out.println("_".repeat(10));
     }
 }
