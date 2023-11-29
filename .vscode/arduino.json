@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "programmer": "arduinoasispatmega32u4",
+    "sketch": "sketch.ino",
+    "output": "build"
+}

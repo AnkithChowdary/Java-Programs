@@ -4,7 +4,7 @@
     public void setId(int id){
         this.id=id;
     }
-    public int getId(){
+    public int getId(int ld){
         return this.id;
     }
     public void setName(String name){
