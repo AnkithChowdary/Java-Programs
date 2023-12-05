@@ -23,6 +23,8 @@ public class arrayListAdd {
   System.out.println(list.contains(0));
   list.add(1,7);
   System.out.println(list);
+  System.out.println(list.size());
+  
   }
   
 }
