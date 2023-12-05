@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.*;
 
 public class arrayListAdd {
   public static void main(String[] args) {
@@ -34,6 +34,11 @@ public class arrayListAdd {
 
   for(int i=0; i<list.size(); i++)
   System.out.print(list.get(i)+" ");
+
+  Collections.sort(list);
+  System.out.println(list);
+  Collections.reverse(list);
+  System.out.println(list);
   }
   
 }
