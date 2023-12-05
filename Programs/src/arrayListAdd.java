@@ -40,7 +40,13 @@ public class arrayListAdd {
   Collections.reverse(list);
   System.out.println(list);
   int x=Collections.max(list);
-  System.out.println(x);
+  System.out.println("Max Element is: "+x);
+  int max=Integer.MIN_VALUE;
+   for(int i=0; i<list.size(); i++)
+   if(list.get(i)>max)
+   max=list.get(i);
+   System.out.println("Max: "+max);
   }
+  
   
 }
