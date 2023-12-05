@@ -3,7 +3,7 @@ import java.util.*;
 public class arrayListAdd {
   public static void main(String[] args) {
     ArrayList<Integer> list=new ArrayList<>();    //Array list syntax ArrayList<Data type with starting capital>listName=new Arraylist<>();
-  list.add(1);
+  list.add(1);                                  //It's like declaring objects
   list.add(2);
   System.out.println(list);
 
@@ -39,6 +39,8 @@ public class arrayListAdd {
   System.out.println(list);
   Collections.reverse(list);
   System.out.println(list);
+  int x=Collections.max(list);
+  System.out.println(x);
   }
   
 }
