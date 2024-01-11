@@ -10,7 +10,7 @@ public class arrayListAdd {
   int element =list.get(0);
   System.out.println(element);
 
-  //Remove operation
+  //Remove operat
   list.remove(0);
   System.out.println(list);
 
@@ -47,6 +47,6 @@ public class arrayListAdd {
    max=list.get(i);
    System.out.println("Max: "+max);
   }
-  
-  
+
+
 }
