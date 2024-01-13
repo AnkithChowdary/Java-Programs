@@ -9,6 +9,7 @@ public class FirstOccurence{
 
     return isSorted(arr,i+1);
   }
+  
 public static void main(String []args){
 
   int arr[]={5,6,5};
