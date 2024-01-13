@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class StringBuilderEx {
     public static void main(String[] args) {
         StringBuilder a = new StringBuilder(""); // Create a new StringBuilder object named 'a' with an initial empty string.
