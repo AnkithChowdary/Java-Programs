@@ -16,5 +16,6 @@ public class AutomorphicNumber {
     int num=sc.nextInt();
     int s=(int)Math.pow(num,2);
     System.out.println(automorphic(num,s)?"It is automorphic Number":"It is not a Automorphic Number");
+    sc.close();
   }
 }

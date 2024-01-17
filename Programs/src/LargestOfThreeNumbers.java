@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class LargestOfThreeNumbers {
   public static void main(String[] args)   
 {  
+// The code is finding the largest of three numbers entered by the user.
  Scanner sc=new Scanner(System.in);
 int a=sc.nextInt();
 int b=sc.nextInt();
