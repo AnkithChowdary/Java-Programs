@@ -1,3 +1,6 @@
+/**
+ * The Factorial class calculates the factorial of a given number using recursion.
+ */
 import java.util.Scanner;
 
 public class Factorial {
