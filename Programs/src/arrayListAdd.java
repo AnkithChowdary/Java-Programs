@@ -1,3 +1,8 @@
+/**
+ * The above class demonstrates various operations that can be performed on an ArrayList in Java, such
+ * as adding elements, accessing elements, removing elements, setting elements, checking if an element
+ * is present, sorting the list, finding the maximum element, and iterating through the list.
+ */
 import java.util.*;
 
 public class arrayListAdd {
