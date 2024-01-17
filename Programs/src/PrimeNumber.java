@@ -2,6 +2,7 @@ import java.util.*;
 public class PrimeNumber {
   public static void main(String []args){
     
+    // This code is checking whether a given number `x` is a prime number or not.
     Scanner sc=new Scanner(System.in);
     int x=sc.nextInt();
     int flag=0;
