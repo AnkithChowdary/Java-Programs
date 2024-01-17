@@ -1,4 +1,7 @@
-import java.util.*;
+/**
+ * The ArrayFreq class calculates the frequency of each element in an array and prints the element
+ * along with its frequency.
+ */
 public class ArrayFreq {
   public static void main(String []args){
     int [] arr=new int[]{1,4,1,1,7,6,4,3,4,8,2,7};
@@ -20,6 +23,8 @@ public class ArrayFreq {
         System.out.println("Element:"+arr[i]+" Frequency:"+freq[i]);
       }
     }
+    
   }
+  
   
 }
