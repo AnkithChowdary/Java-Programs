@@ -1,7 +1,8 @@
-class Student{
+
+class Students{
   String name;
   int marks;
-  public Student(){
+  public Students(){
 
   }
    // Constructures: 
@@ -12,7 +13,7 @@ class Student{
    // Constuctures are special type of methods
    //We need to define none prameterised constructure when we already defined a prameteried and want to use default constructure(unparameterised)
    //Generally during object creation when we don't pass parameters then java automatical creates the default constructure
-   Student(String name, int marks){
+   public Students(String name, int marks){
     this.name=name;                    // Here this refers to current object 
     this.marks=marks;
   }
@@ -46,26 +47,26 @@ public class recordStudents {
      recordStudents r=new recordStudents();
                   System.out.println(r.k);                                          // If we want to print a non static varible declared outside the main class
                                                                                   // then we need to create a object of the recordStudents and access using it
-     Student s1=new Student("Ankith",50);
+     Students s1=new Students("Ankith",50);
      
     System.out.println(recordStudents.id);                                    // IF the variable is static then we can access it using the class name or variable name
-     Student s2=new Student();
+     Students s2=new Students();
      
      s2.setMarks(60);
     s2.setName("Bhomraj");                  
 
-     Student s3=new Student();
+     Students s3=new Students();
      s3.name="Yogendra";
      s3.marks=60;
  
-     Student st[]=new Student[3];
+     Students st[]=new Students[3];
      
      
      st[0]=s1;
      st[1]=s2;
      st[2]=s3;
  
-      for(Student x:st){                                    // For each loop 
+      for(Students x:st){                                    // For each loop 
        System.out.println(x.getName()+" "+x.getMarks());
       }
       System.out.println(s1);
