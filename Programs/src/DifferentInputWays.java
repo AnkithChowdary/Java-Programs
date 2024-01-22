@@ -5,6 +5,7 @@ public class DifferentInputWays {
 
        getInputFromScanner();
         getInputFromConsole();
+        
     }
     public static void getInputFromConsole(){
         String name= System.console().readLine("what's your name:");
@@ -14,6 +15,7 @@ public class DifferentInputWays {
        Scanner an =new Scanner(System.in);
        String k= an.next();
        System.out.println("your name is : "+k);
-
+       an.close();
+      
     }
 }

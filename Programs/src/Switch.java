@@ -9,6 +9,7 @@ public class Switch {
         int b = sc.nextInt();
         char o = sc.next().charAt(0);
         Send(a, b, o);
+        sc.close();
     }
     public static void Send(int s, int d, char o)
     {
@@ -29,5 +30,6 @@ public class Switch {
                 break;
 
         }
+        
     }
 }

@@ -1,4 +1,3 @@
-import java.util.*;
 public class MaxSubArray {
   public static void sub(int arr[]){
     int curr=0,max=Integer.MIN_VALUE;

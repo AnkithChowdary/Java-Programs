@@ -1,4 +1,3 @@
-import java.util.*;
 public class SubArray {
  // The `subarray` method takes an array `arr` as input and prints all the subarrays of `arr`.
   public static void subarray(int arr[]){

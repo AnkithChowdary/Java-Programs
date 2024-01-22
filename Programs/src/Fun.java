@@ -29,5 +29,6 @@ static void sum(int a,int b,int c){
     int b=sc.nextInt();
     Fun ac=new Fun();
     System.out.println("Factorial is "+ac.fact(b));
+    sc.close();
   }
 }

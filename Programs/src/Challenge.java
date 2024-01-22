@@ -22,6 +22,8 @@ public class Challenge {
     Customer c1=new Customer(sc.next(),sc.nextInt());
         System.out.println(c1.getName());
         System.out.println(c1.getId());
+        sc.close();
     }
+    
 }
 

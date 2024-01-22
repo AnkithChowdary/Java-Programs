@@ -1,4 +1,3 @@
-import java.util.*;
 public class MaxSubArray3 {
   public static void kadanes(int arr[]){
       int curr=0,max=Integer.MIN_VALUE,flag=0;
