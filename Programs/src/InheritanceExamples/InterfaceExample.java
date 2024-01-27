@@ -1,3 +1,5 @@
+package InheritanceExamples;
+
 interface car{
     public void show();
     public void drive();
