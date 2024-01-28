@@ -7,6 +7,7 @@ class Unknown{
     System.out.println("In Unknown Class Display2 method");
   }
 }
+
 public class Anonymous{
 
   public static void main(String[] args)
