@@ -5,5 +5,6 @@ public class Example {
         int n=5;
 
         System.out.println(PackMod.fact(n));
+        
     }
 }

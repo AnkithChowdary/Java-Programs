@@ -7,5 +7,6 @@ public class StringBuilderEx {
         }
         
         System.out.println(a); // Print the resulting string stored in the StringBuilder.
+
     }
 }

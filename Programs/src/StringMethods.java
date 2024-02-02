@@ -1,3 +1,5 @@
+import static java.util.Collections.replaceAll;
+
 public class StringMethods {
     public static void main(String[] args) {
          String birthDate="05/5/2007";
@@ -23,7 +25,7 @@ public class StringMethods {
         //Method chaining
         newDate="05".concat("/").concat("11").concat("/").concat("2007");
         System.out.println("newDate = "+newDate);
-        // Replace 
+        // Replace
         System.out.println("Replaced = "+newDate.replaceAll("/","-"));
         String name="Ankit";
         System.out.println("replaced = "+name.replace("n","N"));
@@ -32,5 +34,13 @@ public class StringMethods {
         System.out.println("ABC\n".repeat(3));
         System.out.println("ABC\n".repeat(3).indent(-2));
         System.out.println("_".repeat(10));
+
+
+
+        String anc="ankith is good boy";
+        String abc2=anc.replaceAll(" ","");
+        System.out.println(abc2);
+        abc2=abc2.toUpperCase();
+        System.out.println(abc2);
     }
 }
