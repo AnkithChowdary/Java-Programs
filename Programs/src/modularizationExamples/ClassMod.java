@@ -8,11 +8,13 @@ class demo{
     }
     return f;
   }
+
 }
 public class ClassMod {
   public static void main(String[] args) {
     int n=5;
     System.out.println(demo.fact(n));
+
 
   }
 }
