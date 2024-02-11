@@ -1,3 +1,5 @@
+package Strings;
+
 public class StringCmp {
   public static void main(String[] args) {
     String n="Ankith";

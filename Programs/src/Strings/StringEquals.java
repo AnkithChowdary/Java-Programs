@@ -1,3 +1,5 @@
+package Strings;
+
 public class StringEquals {
   public static void main(String[] args) {
     String a="Ankith";              //Both the strings points to same in memory

@@ -1,3 +1,5 @@
+package Strings;
+
 import java.util.Scanner;
 public class StringToInteger {
    static Scanner sc=new Scanner(System.in);

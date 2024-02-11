@@ -1,3 +1,5 @@
+package Strings;
+
 public class StringToCharArray {
   public static void main(String[] args) {
     String a="ankith";

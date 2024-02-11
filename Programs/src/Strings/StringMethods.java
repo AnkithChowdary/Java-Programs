@@ -1,3 +1,5 @@
+package Strings;
+
 import static java.util.Collections.replaceAll;
 
 public class StringMethods {

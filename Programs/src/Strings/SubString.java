@@ -1,3 +1,5 @@
+package Strings;
+
 public class SubString {
 
   public static void main(String[] args) {
@@ -8,6 +10,8 @@ s+=an.charAt(i);
   
   System.out.println(s);
 System.out.print(an.substring(2,5));
+
+an.contains("bc");
 
   }
 }
