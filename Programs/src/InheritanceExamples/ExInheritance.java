@@ -13,7 +13,7 @@ return a+b;
 }
 class B{
   
-  public int power(int a,int n){                 //Method overiding
+  public int power(int a,int n){                 
     return (int)Math.pow(a,n);
   }
  
