@@ -9,5 +9,6 @@ public class BigNum {
         BigInteger b=sc.nextBigInteger();
         System.out.println(a.add(b));
         System.out.println(a.multiply(b));
+        System.out.println(a.subtract(b));
     }
 }

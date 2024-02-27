@@ -1,2 +1,10 @@
-package constructorexamples;public class CopyConstructor {
+package constructorexamples;
+class Helper{
+    int length;
+    int breadth;
+    Helper(){
+
+    }
+}
+public class CopyConstructor {
 }
