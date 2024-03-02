@@ -7,4 +7,5 @@ class Helper{
     }
 }
 public class CopyConstructor {
-}
+
+    }
