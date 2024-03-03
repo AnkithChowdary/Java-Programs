@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class MyInteger {
     static int value;
-    static void intializer(int b){
+    static void initializer(int b){
         value=b;
     }
 
@@ -29,10 +29,10 @@ public class MyInteger {
     public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);
             int v=sc.nextInt();
-           intializer(v);
-        System.out.println(isOdd(v));
-        System.out.println(isEven(v));
-        System.out.println(isPrime(v));
+           initializer(v);
+        System.out.println(isOdd(value));
+        System.out.println(isEven(value));
+        System.out.println(isPrime(value));
 
     }
 }
