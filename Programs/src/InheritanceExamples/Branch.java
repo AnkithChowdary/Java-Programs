@@ -1,2 +1,4 @@
-package InheritanceExamples;public class Branch {
+package InheritanceExamples;
+
+public class Branch {
 }
