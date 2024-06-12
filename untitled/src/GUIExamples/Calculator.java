@@ -44,7 +44,7 @@ public class Calculator implements ActionListener {
         f.setLayout(new FlowLayout());
         f.setSize(500, 500);
         f.setVisible(true);
-        f.pack()
+        f.pack();
     }
 
     public void actionPerformed(ActionEvent e) {
@@ -59,7 +59,7 @@ public class Calculator implements ActionListener {
             c = a-b;
         } else if (e.getSource() == b3) {
             c = a*b;
-        } else if (e.getSource() == b4) {a
+        } else if (e.getSource() == b4) {
             c = a/b;
         } else if (e.getSource() == b5) {
             c = a%b;
